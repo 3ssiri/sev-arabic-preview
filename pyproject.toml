@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=77"]  # PEP 639 license expression
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sev-arabic-preview"
+version = "0.1.0"
+description = "Sev Arabic Preview v0.1 — Arabic-first typed decision engine (choice, noul), research preview"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Ali Asiri", email = "assiri@gmail.com" }]
+dependencies = ["torch==2.11.0", "transformers==5.17.0", "peft==0.21.0", "huggingface_hub"]
+license = "Apache-2.0"  # code; model weights: CC-BY-SA-4.0 (LICENSE-WEIGHTS)
+license-files = ["LICENSE", "NOTICE"]
+
+[tool.setuptools]
+packages = ["sev_preview", "sev_preview._jevlite"]
+
+[tool.setuptools.package-data]
+"sev_preview._jevlite" = ["LICENSE"]

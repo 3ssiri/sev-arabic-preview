@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.venv/
+/Sev-Arabic-Preview-v0.1/
+smoke-*.json

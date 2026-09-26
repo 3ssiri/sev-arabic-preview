@@ -1,0 +1,5 @@
+# Versions the v0.1 package smoke was run with (Windows: Python 3.11.9; Linux/WSL2: Python 3.12.14).
+torch==2.11.0
+transformers==5.17.0
+peft==0.21.0
+huggingface_hub

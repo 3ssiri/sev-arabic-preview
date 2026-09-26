@@ -1,0 +1,15 @@
+Sev Arabic Preview v0.1
+Copyright (c) 2026 Ali Asiri
+
+Code: Apache License 2.0 (LICENSE). Model weights (adapter + head): CC BY-SA 4.0 (LICENSE-WEIGHTS).
+
+This package contains or depends on third-party work:
+
+- sev_preview/_jevlite/ (model.py, td_data.py, typed_schema.py): open-jev-typed-decision-engine,
+  commit 5977431afb6a9272e034f63c3ec7f0ee5395df59, Copyright 2026 Intikhab Azam,
+  licensed under the Apache License 2.0 (sev_preview/_jevlite/LICENSE). Included unmodified.
+- Base encoder jhu-clsp/mmBERT-base, revision c5955035435e2bf121cde7f3c8863ef52ff35d82, MIT License.
+  Downloaded at runtime from Hugging Face; not redistributed here.
+- Fine-tuning data (not included):
+  * MASSIVE ar-SA (Amazon), CC BY 4.0 - FitzGerald et al., ACL 2023.
+  * ArBanking77 (SinaLab), CC BY-SA 4.0 - cite Jarrar et al. (ArabicNLP 2023) and Malaysha et al. (ArabicNLP 2024).

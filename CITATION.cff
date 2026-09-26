@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+message: "If you use Sev Arabic Preview, please cite it as below."
+type: software
+title: "Sev Arabic Preview v0.1"
+abstract: >-
+  Arabic-first typed decision engine (research preview): a state and typed questions go in,
+  bounded choice / noul answers with calibrated probabilities come out, with no text generation.
+authors:
+  - family-names: Asiri
+    given-names: Ali
+    email: assiri@gmail.com
+    website: "https://x.com/3li3"
+version: "0.1.0"
+date-released: "2026-09-26"
+keywords:
+  - Arabic
+  - typed decisions
+  - calibration
+  - research preview
+license: Apache-2.0  # software; the model weights are CC-BY-SA-4.0 (LICENSE-WEIGHTS)
+# doi: to be added after the Zenodo archive of GitHub Release v0.1.0
+repository-code: "https://github.com/3ssiri/sev-arabic-preview"
+url: "https://huggingface.co/3ssiri/Sev-Arabic-Preview-v0.1"
+references:
+  - type: software
+    title: "mmBERT-base"
+    authors:
+      - name: "Johns Hopkins University CLSP (jhu-clsp)"
+    url: "https://huggingface.co/jhu-clsp/mmBERT-base"
+    license: MIT
+  - type: software
+    title: "open-jev-typed-decision-engine"
+    authors:
+      - family-names: Azam
+        given-names: Intikhab
+    url: "https://github.com/intikhab49/open-jev-typed-decision-engine"
+    license: Apache-2.0
+  - type: dataset
+    title: "MASSIVE: A 1M-Example Multilingual Natural Language Understanding Dataset with 51 Typologically-Diverse Languages"
+    authors:
+      - family-names: FitzGerald
+        given-names: Jack
+    url: "https://huggingface.co/datasets/AmazonScience/massive"
+    license: CC-BY-4.0
+  - type: article
+    title: "ArBanking77: Intent Detection Neural Model and a New Dataset in Modern and Dialectical Arabic"
+    authors:
+      - family-names: Jarrar
+        given-names: Mustafa
+    year: 2023
+    url: "https://github.com/SinaLab/ArBanking77"
+    license: CC-BY-SA-4.0
+  - type: article
+    title: "AraFinNLP 2024: The First Arabic Financial NLP Shared Task"
+    authors:
+      - family-names: Malaysha
+        given-names: Sanad
+    year: 2024
