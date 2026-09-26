@@ -35,7 +35,7 @@ references:
         given-names: Intikhab
     url: "https://github.com/intikhab49/open-jev-typed-decision-engine"
     license: Apache-2.0
-  - type: dataset
+  - type: data
     title: "MASSIVE: A 1M-Example Multilingual Natural Language Understanding Dataset with 51 Typologically-Diverse Languages"
     authors:
       - family-names: FitzGerald
