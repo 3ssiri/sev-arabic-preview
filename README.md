@@ -1,5 +1,7 @@
 # Sev Arabic Preview v0.1
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22979051.svg)](https://zenodo.org/doi/10.5281/zenodo.22979051)
+
 > **Research Preview** — not the final Sev model, not production-ready.
 
 Sev is an Arabic-first **typed decision engine**. You give it a state (text or JSON) and a few typed questions; one
@@ -78,6 +80,6 @@ Limitations, data sources and licensing are in the model card.
 
 ## Citation
 
-See `CITATION.cff`. A Zenodo DOI will be added with GitHub Release `v0.1.0`.
+See `CITATION.cff`. DOI (all versions): [10.5281/zenodo.22979051](https://zenodo.org/doi/10.5281/zenodo.22979051) · v0.1.0: [10.5281/zenodo.22979052](https://zenodo.org/records/22979052)
 
 © 2026 Ali Asiri

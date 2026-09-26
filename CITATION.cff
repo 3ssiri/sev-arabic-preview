@@ -18,7 +18,7 @@ keywords:
   - calibration
   - research preview
 license: Apache-2.0  # software; the model weights are CC-BY-SA-4.0 (LICENSE-WEIGHTS)
-# doi: to be added after the Zenodo archive of GitHub Release v0.1.0
+doi: "10.5281/zenodo.22979051"  # concept DOI (all versions); v0.1.0 = 10.5281/zenodo.22979052
 repository-code: "https://github.com/3ssiri/sev-arabic-preview"
 url: "https://huggingface.co/3ssiri/Sev-Arabic-Preview-v0.1"
 references:
