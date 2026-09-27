@@ -64,6 +64,8 @@ python smoke_test.py --device cpu     # or --device cuda
 
 Development results (94.53% mean accuracy over 3 seeds, ECE ≈ 0.0053 after calibration) come from Sev's own
 development split and are **not** an external benchmark; they cannot be compared with other systems' published numbers.
+Choice accuracy on the model card is 92.82% with the paired verification question. Without that question the same
+checkpoint scores 90.94% on 6,228 held-out rows (92.95% when the question is included on those rows).
 Limitations, data sources and licensing are in the model card.
 
 ## License
