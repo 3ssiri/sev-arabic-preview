@@ -66,6 +66,10 @@ Development results (94.53% mean accuracy over 3 seeds, ECE ≈ 0.0053 after cal
 development split and are **not** an external benchmark; they cannot be compared with other systems' published numbers.
 Choice accuracy on the model card is 92.82% with the paired verification question. Without that question the same
 checkpoint scores 90.94% on 6,228 held-out rows (92.95% when the question is included on those rows).
+On a broader, harder development set (Saudi-dialect call-centre dialogues and other Arabic sources, one question per
+request; measured 2026-10-01) the same checkpoint scores only 57.3% on `choice` and 56.9% on standalone yes/no
+questions, so the 94.53% figure holds only for its own development split. Newer, unreleased development models reach
+81–87% on those rows.
 Limitations, data sources and licensing are in the model card.
 
 ## License
